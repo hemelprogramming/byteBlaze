@@ -3,7 +3,7 @@ import BlogCard from '../Components/BlogCard/BlogCard';
 
 const Blogs = () => {
   const blogs = useLoaderData();
-  console.log(blogs);
+  // console.log(blogs);
   return (
     <section className=" text-black-500 py-6">
       <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">

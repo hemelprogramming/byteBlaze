@@ -5,7 +5,7 @@ const BlogCard = ({ blog }) => {
   const { id, cover_image, title, description, published_timestamp } = blog;
   return (
     <Link
-      to={`/blogs/:${id}`}
+      to={`/blog/${id}`}
       rel="noopener noreferrer"
       href="#"
       className="max-w-sm mx-auto group hover:no-underline focus:no-underline transition border-2 hover:scale-105 hover:border-secondary rounded-md border-opacity-30"
